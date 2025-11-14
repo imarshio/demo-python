@@ -11,8 +11,7 @@ messages = [
     {
         "role": "user",
         "content": [
-            # {"audio": "https://dashscope.oss-cn-beijing.aliyuncs.com/audios/welcome.mp3"},
-            {"audio": "https://asr-1370338329.cos.ap-nanjing.myqcloud.com/SkiesNoLuv%20-%20%E7%96%AF%E5%AD%90.mp3"},
+            {"audio": "https://dashscope.oss-cn-beijing.aliyuncs.com/audios/welcome.mp3"},
         ]
     }
 ]
@@ -29,7 +28,7 @@ class ASR:
 #
 # response = ASR.client().call(
 #     # 若没有配置环境变量，请用百炼API Key将下行替换为：api_key = "sk-xxx"
-#     api_key="sk-7813347557f943adab65c5bb64820e36",
+#     api_key="sk-xxxx",
 #     model="qwen3-asr-flash",
 #     messages=messages,
 #     result_format="message",
@@ -45,7 +44,7 @@ class ASR:
 
 response = ASR.client().call(
     # 若没有配置环境变量，请用百炼API Key将下行替换为：api_key = "sk-xxx"
-    api_key="sk-7813347557f943adab65c5bb64820e36",
+    api_key="sk-xxxx",
     model="qwen3-asr-flash",
     messages=messages,
     result_format="message",

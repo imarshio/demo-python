@@ -4,7 +4,7 @@ import json
 
 # 若没有将API Key配置到环境变量中，需将下面这行代码注释放开，并将apiKey替换为自己的API Key
 import dashscope
-dashscope.api_key="sk-7813347557f943adab65c5bb64820e36",
+dashscope.api_key="sk-xxx",
 
 transcribe_response = Transcription.async_call(
     model='paraformer-v2',

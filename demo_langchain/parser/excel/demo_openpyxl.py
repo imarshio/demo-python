@@ -119,5 +119,5 @@ class ExcelParser():
 
 # 示例使用
 if __name__ == "__main__":
-    parser = ExcelParser("demo1.xls")
+    parser = ExcelParser("../ms_office_old/demo1.xls")
     parser.parse()

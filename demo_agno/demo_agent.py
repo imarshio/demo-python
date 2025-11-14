@@ -7,7 +7,7 @@ db = SqliteDb(db_file="agno.db")
 agent = Agent(
     model=OpenAILike(
         id="deepseek-v3",
-        api_key="sk-7813347557f943adab65c5bb64820e36",
+        api_key="your-api-key",
         base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
         temperature=0.3,
         max_tokens=16384,
